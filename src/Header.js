@@ -45,7 +45,7 @@ function Header() {
        
            
       } catch (error) {
-        alert('Đã xảy ra lỗi abc:');
+        alert('Get All Logger error:');
       }
     };
 
