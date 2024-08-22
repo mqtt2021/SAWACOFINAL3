@@ -1,0 +1,40 @@
+
+
+.History{
+    margin-top: 10px;
+    width: 100%;
+    height: 100vh;  
+    display: flex;
+    flex-direction: column;
+    align-items: center;  
+    .filter{
+        width: 100%;
+        display: flex;
+        justify-content: space-around;
+               
+        .filterItem{
+            font-weight: 600;
+            z-index: 3000;
+            height: 50px;   
+            display: flex;
+            align-items: center;
+            column-gap: 10px;  
+        }
+        .filterItemSelectLogger{
+           
+        }
+        .filterItemButton{
+            display: flex;
+            column-gap: 10px;
+        }
+    }
+    .mapStolenLine{
+            height: 100%;
+            width: 95%;     
+        .leaflet-container {
+            height: 95%;  
+            width: 100%;        
+        }
+    }
+   
+}
